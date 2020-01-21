@@ -1,0 +1,13 @@
+.app-header {
+    text-align: center;
+}
+.about{
+    width: 500px;
+}
+h2 {
+    text-align: center;
+}
+hr {
+    width: 1024px;
+    border-top: 2px solid #999;
+}
