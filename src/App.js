@@ -2,6 +2,7 @@ import React from "react";
 import Profile from "./assets/profile.png";
 import "./style.css";
 import logo from "./assets/mining.jpeg";
+import Counter from './assets/components/counter';
 
 function App() {
   return (
@@ -57,7 +58,7 @@ function App() {
         <h1>Hendrik Katiandagho</h1>
         </div>
         <div>
-        <img src={Profile} class="rounded" alt=""/>
+        <img src={Profile} alt=""/>
         <h3>Electrician & Auto | Embedded System</h3>
         </div>
       </div>
@@ -88,6 +89,10 @@ function App() {
         </div>
         <hr />
       </div>
+
+      <div className='counter'>
+        <Counter/>
+      </div> <br/>
 
       <div>
         <h2>My Portofolio</h2>
